@@ -32,10 +32,6 @@ const NavBar = () => {
       setNotification(false);
       setProfile(false);
     } else if (btnText == "Help Center") {
-      if (help) {
-        setHelp(false);
-        return;
-      }
       setDiscover(false);
       setHelp(true);
       setNotification(false);
